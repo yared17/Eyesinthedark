@@ -1,0 +1,121 @@
+#cresposive {
+  width: 100%;
+  opacity: 1;
+  display: flex;
+  justify-content: center;
+}
+.Face {
+  width: 200px;
+  height: 200px;
+  border-right: 7px solid #6b787a;
+  border-top: 7px solid #6b787a;
+  border-left: 7px solid #6b787a;
+  border-bottom: 7px solid #6b787a;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  animation-name: bounce;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+.Face2 {
+  width: 200px;
+  height: 200px;
+  border-right: 7px solid #6b787a;
+  border-top: 7px solid #6b787a;
+  border-left: 7px solid #6b787a;
+  border-bottom: 7px solid #6b787a;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  animation-name: bounce;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+.SubFace {
+  width: 10px;
+  height: 10px;
+  border-right: 7px solid #6b787a;
+  border-top: 7px solid #6b787a;
+  border-left: 7px solid #6b787a;
+  border-bottom: 7px solid #6b787a;
+  -moz-border-radius: 100%;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  animation-name: bounce;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes bounce {
+  0% {
+    top: 0px;
+  }
+  50% {
+    width: 130px;
+    height: 70px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+@keyframes mostachi {
+  0% {
+    top: 0px;
+  }
+  50% {
+    top: 0px;
+    height: 50px;
+  }
+  100% {
+    top: 0px;
+  }
+}
+.devyhb {
+  opacity: 0.4;
+  color: #6b787a;
+  position: fixed;
+}
+h1 {
+  font-family: "VT323", monospace;
+  font-size: 100px;
+}
+
+body {
+  background-color: transparent;
+  background-image: url("https://images3.alphacoders.com/706/thumb-1920-706645.jpg");
+  background-position: center ;
+  background-attachment: fixed;
+  backgroudn-size: contain;
+}
+
+.center {
+  width: 30px;
+  height: 30px;
+  margin: 0px auto;
+  padding-left: 10px;
+  border-radius: 50%;
+  box-shadow: 0px 10px 0 0 #6b787a;
+  animation-name: mostachi;
+  animation-duration: 10s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+
+  @media (min-width: 480px) {
+    body {
+        background-image: url("https://images3.alphacoders.com/706/thumb-1920-706645.jpg");
+    }
+}
+@media (min-width: 768px) {
+    body {
+        background-image: url("https://images3.alphacoders.com/706/thumb-1920-706645.jpg");
+    }
+}
+@media (min-width: 1200px) {
+    body {
+        background-image: url("https://images3.alphacoders.com/706/thumb-1920-706645.jpg");
+    }
+}
