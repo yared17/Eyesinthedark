@@ -6,4 +6,3 @@
   Eye and Eye</a> by Yared Henriquez Blanquicett (<a href="https://codepen.io/yared17">@yared17</a>)
   on <a href="https://codepen.io">CodePen</a>.</span>
 </p>
-<script async src="https://cpwebassets.codepen.io/assets/embed/ei.js"></script>
